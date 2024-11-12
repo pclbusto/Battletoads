@@ -1,4 +1,4 @@
-""" Sprite Sample Program """
+    """ Sprite Sample Program """
 
 import arcade
 
@@ -18,7 +18,7 @@ class MyGame(arcade.Window):
     def __init__(self):
         """ Initializer """
         # Call the parent class initializer
-        super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, "Sprites With Walls Example")
+        super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, "redibujados With Walls Example")
         self.lista_toads = arcade.SpriteList()
         self.lista_toads.append(Toad())
         self.lista_toads[0].center_y = 300
